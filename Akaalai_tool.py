@@ -2,8 +2,8 @@ import requests
 from transformers import pipeline
 
 # Access secrets
-GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]
-SEARCH_ENGINE_ID = st.secrets["SEARCH_ENGINE_ID"]
+GOOGLE_API_KEY = st.secrets["AIzaSyDfq5TNZwV7Nd4wkVX8ZxiWk9QLGWrMwlA"]
+SEARCH_ENGINE_ID = st.secrets["e1d3fac41bae54986"]
 
 # Hugging Face setup
 model_name = "google/flan-t5-base"
